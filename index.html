@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+  <head>
+    <link rel="icon" type="image/png" href="favicon.png"></link>
+    <title>RIP Sporting</title>
+  </head>
+  <body>
+    <div>
+      <span>Bruno de Carvalho ainda está no sporting?</span>
+      <span>SIM!<span> 
+      <span>Sportinguistas em toda a parte lamentam a sua influência...</span>
+      <a href="https://www.youtube.com/watch?v=1QoZ8JKV4hA">José de Pina redirecciona o seu descontentamento para outros...</a>
+    </div>
+      <span>Atualizado pela última vez em:</span>
+      <span id="lastUpdated"></span>
+    <div>
+    </div>
+    <script src="date.js"></script>
+    <script>
+      window.onload = function () {
+        document.getElementById("lastUpdated").appendChild(document.createTextNode(getLastUpdatedAtDateString()));
+      };
+    </script>
+  </body>
+</html>

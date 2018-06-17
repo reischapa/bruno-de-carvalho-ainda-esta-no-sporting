@@ -1,0 +1,24 @@
+{
+  "name": "carvalho-hangs-on",
+  "version": "0.0.1",
+  "description": "A même of the highest caliber",
+  "main": " ",
+  "scripts": {
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reischapa/carvalho-hangs-on.git"
+  },
+  "keywords": [
+    "carvalho",
+    "bruno",
+    "sporting"
+  ],
+  "author": "João Chapa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reischapa/carvalho-hangs-on/issues"
+  },
+  "homepage": "https://github.com/reischapa/carvalho-hangs-on#readme"
+}
