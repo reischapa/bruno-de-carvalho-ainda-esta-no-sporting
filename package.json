@@ -4,7 +4,8 @@
   "description": "A même of the highest caliber",
   "main": " ",
   "scripts": {
-    "test": " "
+    "dev": "http-server .",
+    "publish": "node build/generateDate.js && git add . && git commit -m 'updated lastUpdateDateString' && git push origin master"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/reischapa/carvalho-hangs-on/issues"
   },
-  "homepage": "https://github.com/reischapa/carvalho-hangs-on#readme"
+  "homepage": "https://github.com/reischapa/carvalho-hangs-on#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
 }
