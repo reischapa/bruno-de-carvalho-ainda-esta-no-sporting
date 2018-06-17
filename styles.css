@@ -52,11 +52,25 @@ body {
   animation: color-transition 750ms infinite linear;
 }
 
+#signature {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0 20px 20px;
+
+}
+
+#signature a {
+  color: #008661;
+  font-weight: bold;
+}
+
 .lastUpdatedAtContainer {
   background: white;
   margin: 40px 0 0;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 5px;
+  text-align: center;
 }
 
